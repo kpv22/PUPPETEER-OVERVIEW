@@ -1,0 +1,38 @@
+# Comentarios
+# Ignora los archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora los archivos de registro
+*.log
+
+# Ignora los directorios y archivos específicos
+bin/
+build/
+node_modules/
+dist/
+.idea/
+node_modules
+# Ignora los archivos de configuración de entorno
+.env
+
+# Ignora los archivos de compilación y ejecutables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignora los archivos generados por el IDE
+.vscode/
+*.swp
+
+# Ignora archivos de dependencias de lenguajes de programación
+# Por ejemplo, en Python:
+__pycache__/
+*.pyc
+
+# Ignora archivos de respaldo
+*~
+
+# Ignora archivos específicos
+archivo_secreto.txt
